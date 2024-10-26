@@ -1,0 +1,114 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "date",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "eth",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_owner",
+						"type": "address"
+					}
+				],
+				"name": "setAdress",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_eth",
+						"type": "uint256"
+					}
+				],
+				"name": "setWalletEth",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"custom:dev-run-script": "./scripts/deploy_with_ethers.ts",
+			"details": "Store & retrieve value in a variable",
+			"kind": "dev",
+			"methods": {},
+			"title": "Storage",
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/test.sol": "Test"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/test.sol": {
+			"keccak256": "0x0993c4fbfe2dfd6af614da5e925ad2ba16a000739a395a637982d6d808288708",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://f04fb781c6fe7413dcd59432fc817db640835345afd9456db8bd670559895d7f",
+				"dweb:/ipfs/QmTfzYDko2b4zQavp48jLuL6Rt5vCQ3m9poS1sEzFnKjB6"
+			]
+		}
+	},
+	"version": 1
+}
