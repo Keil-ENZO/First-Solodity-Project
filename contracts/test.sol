@@ -16,7 +16,7 @@ contract Test {
 
     function setAdress(address _owner) public {
 
-            owner = _owner;
+        owner = _owner;
     }
     
     function setWalletEth(uint _eth) public {

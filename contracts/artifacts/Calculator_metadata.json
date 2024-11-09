@@ -6,39 +6,26 @@
 	"output": {
 		"abi": [
 			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "num",
+						"type": "uint256"
+					}
+				],
+				"name": "add",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
 				"inputs": [],
-				"name": "date",
+				"name": "getResult",
 				"outputs": [
 					{
 						"internalType": "uint256",
 						"name": "",
 						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "eth",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "owner",
-				"outputs": [
-					{
-						"internalType": "address",
-						"name": "",
-						"type": "address"
 					}
 				],
 				"stateMutability": "view",
@@ -47,12 +34,12 @@
 			{
 				"inputs": [
 					{
-						"internalType": "address",
-						"name": "_owner",
-						"type": "address"
+						"internalType": "uint256",
+						"name": "num",
+						"type": "uint256"
 					}
 				],
-				"name": "setAdress",
+				"name": "multiply",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -61,22 +48,19 @@
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "_eth",
+						"name": "num",
 						"type": "uint256"
 					}
 				],
-				"name": "setWalletEth",
+				"name": "subtract",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
 		"devdoc": {
-			"custom:dev-run-script": "./scripts/deploy_with_ethers.ts",
-			"details": "Store & retrieve value in a variable",
 			"kind": "dev",
 			"methods": {},
-			"title": "Storage",
 			"version": 1
 		},
 		"userdoc": {
@@ -87,7 +71,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/test.sol": "Test"
+			"contracts/Calculator.sol": "Calculator"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -101,12 +85,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/test.sol": {
-			"keccak256": "0x5ab9f866a34328d162e0ef2462a714c739e4d7ac23423e1e7779c593242af54c",
+		"contracts/Calculator.sol": {
+			"keccak256": "0x2c2c142d11197ba36d71c30ce28d84a324bc0040782fdcbf50b13b4f37820baf",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://dcd926d29c623884be4af46291866bc5d42a501ce863750dd3b1b6c729d4cfc4",
-				"dweb:/ipfs/QmZAGL4iht9FBQuNcL5vDLRaMk4gnxoK7V1DX44nZb6XN3"
+				"bzz-raw://ac104a22f32f1a05be4d3ea87438ddcf77a85ac4c827631c19d8a770116d10ef",
+				"dweb:/ipfs/QmZQ4vCZoLvhktpTj6xxaRu6V57qKSSuEhj5ySoF4Mae19"
 			]
 		}
 	},
